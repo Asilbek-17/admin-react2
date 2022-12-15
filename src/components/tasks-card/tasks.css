@@ -1,15 +1,13 @@
 .tasks-wrap {
-    width: 546px;
+    width: 546px !important;
+    height: 344px;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
     padding-top: 32px;
 }
 
-.tasks-wrap {
-    width: 546px;
-    border: 1px solid #DFE0EB;
-    border-radius: 8px;
-    padding-top: 32px;
+.tasks-wrap:nth-child(1) {
+    margin-right: 30px;
 }
 
 .info-box {
