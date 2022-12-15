@@ -24,7 +24,7 @@ export function TaskCard() {
 		},
 	];
 	return (
-		<div className='tickets-wrap'>
+		<div className='tasks-wrap'>
 			<div className='info-box d-flex justify-content-between'>
 				<div>
 					<h3 className='tasks-title'>Unresolved tickets</h3>

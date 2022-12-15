@@ -1,9 +1,7 @@
-.tickets-wrap {
+.tasks-wrap {
     width: 546px;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
-    margin-left: 50px;
-    margin-bottom: 50px;
     padding-top: 32px;
 }
 
@@ -11,8 +9,6 @@
     width: 546px;
     border: 1px solid #DFE0EB;
     border-radius: 8px;
-    margin-left: 50px;
-    margin-bottom: 50px;
     padding-top: 32px;
 }
 
