@@ -1,0 +1,38 @@
+.cards-item {
+  padding: 24px 10px;
+
+  background: #ffffff;
+  border: 1px solid#DFE0EB;
+  border-radius: 8px;
+}
+.cards-item:not(:nth-child(4)) {
+  margin-right: 15px;
+}
+.cards__title {
+  display: block;
+  width: 160px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #9fa2b4;
+}
+.card__son {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
+}
+.cards-item:hover {
+  border: 1px solid #3751ff;
+}
+.cards-item:hover .cards__title {
+  color: #3751ff;
+}
+.cards-item:hover .card__son {
+  color: #3751ff;
+}

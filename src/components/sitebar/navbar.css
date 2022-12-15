@@ -1,0 +1,25 @@
+.navbar-boss {
+  padding-top: 37px;
+  height: 100vh;
+}
+.textHreft__logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 59px;
+  text-decoration: none;
+}
+.logo__text {
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #a4a6b3;
+
+  opacity: 0.7;
+}
+.navbars {
+  background: #363740;
+  padding-left: 32px;
+}

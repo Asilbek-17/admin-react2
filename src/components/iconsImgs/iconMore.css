@@ -1,0 +1,20 @@
+.item__icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.item__icons:nth-child(7) {
+  border-top: 1px solid #dfe0eb70;
+}
+.text__iconNavbar {
+  display: inline-block;
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #a4a6b3;
+}

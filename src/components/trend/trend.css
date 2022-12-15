@@ -1,0 +1,130 @@
+.trend {
+    width: 1122px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.start-box {
+    width: 780px;
+    border-right: 1px solid #DFE0EB;
+    padding: 32px 30px;
+}
+
+.trend-title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    margin: 0;
+}
+
+.trend-span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.img-box {
+    width: 720px;
+    margin: 0;
+}
+
+.info-box {
+    margin-bottom: 32px;
+}
+
+.weekDay-text {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin: 0;
+    margin-right: 32px;
+}
+
+.weekDay-text::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #3751FF;
+    margin-right: 8px;
+}
+
+.weekDay-text2 {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin: 0;
+}
+
+.weekDay-text2::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #DFE0EB;
+    margin-right: 8px;
+}
+
+.trend-list {
+    width: 342px;
+}
+
+.trend-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.trend-item:nth-child(1) {
+    padding-top: 32px;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.trend-item:nth-child(2) {
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.trend-item:nth-child(3) {
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.trend-item:nth-child(4) {
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.trend-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.trend-str {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+    margin: 0;
+}

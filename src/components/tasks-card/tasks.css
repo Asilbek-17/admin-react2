@@ -1,0 +1,145 @@
+.tickets-wrap {
+    width: 546px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-top: 32px;
+}
+
+.tasks-wrap {
+    width: 546px;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-top: 32px;
+}
+
+.info-box {
+    padding: 0 32px;
+    margin-bottom: 36px;
+}
+
+.tasks-title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.info-text {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+    margin: 0;
+}
+
+.info-spn {
+    font-weight: 600;
+    color: #252733;
+}
+
+.info-link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #3751FF;
+    text-decoration: none;
+}
+
+.tickets-item {
+    border-bottom: 1px solid #DFE0EB;
+    padding: 0 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.tickets-item:nth-child(1) {
+    padding-top: 0;
+}
+
+.tickets-item:nth-child(4) {
+    border-bottom: none;
+    padding-bottom: 25px;
+}
+
+.tasks-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+    margin: 0;
+    text-align-last: left;
+}
+
+.tickets-span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+
+.task-inp {
+    width: 544px;
+    border: none;
+    border-bottom: 1px solid #DFE0EB;
+    margin-bottom: 17px;
+    padding-left: 32px;
+    padding-right: 60px;
+    padding-bottom: 18px;
+    background-image: url("../../assets/images/inactive.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 18px right 32px;
+    background-size: 24px;
+    outline: none;
+}
+
+.task-inp:focus {
+    border-bottom: 1px solid #252733;
+}
+
+.btnTask {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    padding: 5px 12px;
+}
+
+.btn1 {
+    background-color: #FEC400;
+}
+
+.btn2 {
+    background-color: #29CC97;
+}
+
+.btn3 {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+}
+
+.check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #C5C7CD;
+    margin-right: 16px;
+}

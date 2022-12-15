@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/mulish-v12-latin-regular.woff2') format('woff2'),
+  url('../fonts/mulish-v12-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/mulish-v12-latin-600.woff2') format('woff2'), 
+  url('../fonts/mulish-v12-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/mulish-v12-latin-700.woff2') format('woff2'), 
+  url('../fonts/mulish-v12-latin-700.woff') format('woff'); 
+}
+
+
+*,
+*::before,
+*::after{
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img{
+  display: block;
+  height: auto;
+}
+
+body{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", "Arial", sans-serif;
+}
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* CONTAINER */
+
+
+
+/* STICKY-FOOTER */
+
+.site-main{
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.mainSection {
+  padding-top: 36px;
+
+  padding-left: 30px;
+  padding-bottom: 58px;
+}
+.dingDong {
+  padding: 4px 30px;
+  border-right: 1px solid #dfe0eb;
+}
+.logos__dearc_headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fotoMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Jones {
+  margin-left: 32px;
+  margin-right: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-align: right;
+  color: #252733;
+}
+.logo__main_header {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  color: #252733;
+}
+.card-lists {
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
